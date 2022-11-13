@@ -223,7 +223,7 @@ tr.tr-header {
 mark {
   width: 100px;
   height: 100px;
-  background: #4b5800;
+  /* background: #4b5800; */
   position: relative;
   animation: mymove 3s infinite;
 }
