@@ -123,7 +123,7 @@ li a {
     padding: 14px 16px;
   }
   hr {
-    width: 60%;
+    width: 70%;
     border : 0.5px solid #ccc;
 }
 .section-header {
@@ -198,8 +198,8 @@ tr.tr-header {
   border-radius: 100px;
 }
 .content5 img {
-  margin-right: 10px;
-  margin-left: 40px;
+  margin-right: 50px;
+  margin-left: 100px;
   margin-bottom: 50px;
   margin-top: 50px;
   height: 180px;
@@ -223,7 +223,6 @@ tr.tr-header {
 mark {
   width: 100px;
   height: 100px;
-  /* background: #4b5800; */
   position: relative;
   animation: mymove 3s infinite;
 }
@@ -294,7 +293,10 @@ img {
     padding-right: 0px;
     max-width: 37px;
 }
-
+.content5 img {
+  margin-right: 5px;
+  margin-left: 35px;
+}
 .name {
   font-size: 5px;
 }
