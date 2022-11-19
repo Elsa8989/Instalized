@@ -1,7 +1,9 @@
 body {
-    background-image: url(img/ulang.jpg);
+    /* background-image: url(img/ulang.jpg);
     background-repeat: no-repeat;
     background-size:  1352px  1230px;
+} */
+background-color: #d1846c;
 }
 .medsos {
   margin-bottom: 2px;
@@ -31,26 +33,55 @@ mark {
 }
 mark {
   background: #fff;
-  color: #caa282;
+  color: #d1846c;
   padding: 5px 5px;
 }
 header ul {
     float: right;
+    margin-top: -1%;
+}
+.container {
+  background-color: #fff;
+  /* padding-top: 1px;
+  padding-bottom: 10px; */
+  justify-content: space-between;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: 0px;
+  height: 30%;
 }
 header ul li {
     display: inline-block;
+}
+header {
+  justify-content: space-around;
 }
 header ul li a {
     padding: 25px 20px;
     display: inline-block;
     margin-top: 1px;
+    font-family: 'Temporarium', sans-serif;
+                                                                                                                                 
 }
 header ul li a:hover {
-    background-color: #d4a87e;
+    background-color: #d1846c;
     color: #fff;
     border-radius: 50px;
     padding-bottom: 5px;
     padding-top: 5px;
+}
+.medsos ul li a:hover {
+  background-color: #d1846c;
+  color: #fff;
+  border-radius: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.content1 span {
+  color: #fff;
+  margin-left: 20%;
+  margin-top: 10%;
+  font-size: 25px;
 }
 li a {
     display: block;
@@ -61,19 +92,34 @@ li a {
     font-weight: bold;
     font-size: 16px;
   }
+  
   img {
     border-radius: 900px;
     margin-top: 5%;
-    margin-left: 30%;
+    margin-left: 40%;
     width: 100%;
     max-width: 220px;
   }
 .content1 {
     display:grid;
     grid-template-columns: 50% auto;
-    padding-top: 8%;
-    font-size: 23px;
-    padding-left: 10px;
+    padding-top: 8%;   
+    /* margin-left: 5%;                                        */
+}
+.content2 h2 {
+  font-family: 'Regisha', sans-serif;
+  font-size: 30px;                                              
+  color: #d1846c;                                             
+}
+.text1 {
+  font-family: 'Sparky Stones', sans-serif;
+  font-size: 24px;
+  margin-left: 5%;
+  margin-right: 10%;                                     
+}
+span {
+  font-family: 'Sparky Stones', sans-serif;
+   font-size: 20px;                                             
 }
 .content2 {
     background-color: #fff;
@@ -148,8 +194,16 @@ th {
   font-size: 1.2rem;
   padding-left: 15px;
   padding-right: 15px;
+  background-color: #a0745f;
+  padding-top: 3%;
 }
-
+.medsos ul li a:hover {
+  background-color: #d1846c;
+  color: #fff;
+  border-radius: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
 td {
   text-align: center;
   padding: 10px 15 px;
@@ -158,16 +212,19 @@ td {
 .text-left {text-align: left;}
 tr:nth-child(odd) { background-color: #caa282; }
 
-tr.tr-header {
+/* tr.tr-header {
     background-color: #a0745f;
-    height: 50px;
-}
+} */
   .content3 img{
     border-radius: 100px;
     margin-right: 100px;
     margin-left: 3px;
     padding-right: 5px;
     padding-left: -5px;
+}
+mark {
+  font-family: 'Vescona', sans-serif;
+                                                
 }
 .content3 {
     display: flex;
@@ -205,12 +262,19 @@ tr.tr-header {
   height: 180px;
   width: 180px;
 }
+.name {
+  font-family: 'Vescona', sans-serif;                                                                                         
+  font-size: 13px;
+  padding-left: 12px;
+  padding-right: 1px;
+}
 
 
 @media screen and (max-width: 360px) {
   body {
     background-size: 505px 740px;
   }
+  
   header ul li a:hover {
     border-radius: 50px;
     padding-top: 10px;
@@ -221,8 +285,8 @@ tr.tr-header {
     padding: 6px;
 }
 mark {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   position: relative;
   animation: mymove 3s infinite;
 }
@@ -234,26 +298,67 @@ mark {
   background: #fff;
   color: #caa282;
   padding: 5px 5px;
+  font-size: 5px;
 }
+.medsos {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+/* .medsos ul li {
+  display: inline-block;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 1px;
+} */
 .medsos ul {
   padding: 1px;
   display: flex;
+  margin-top: -26px;
+  float: left;
 }
 .medsos ul li {
-  padding: 1px;
-  max-width: 14px;
+  padding: 5px;
+  max-width: 3px;
+}
+.medsos ul li a {
+  font-size: 10px;
+  padding: 2px;
+  display: inline-block;
+  margin: -50;
+}
+.content1 span {
+  font-size: 12px;
+  margin-left: 5%;
+  margin-top: 25%;
 }
 header ul {
   float: right;
+  margin-top: -1px;
+}
+.text1 {
+  font-size: 9px;
+  margin-left: -25%;
+  margin-right: 3%;
+}
+#tag {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  letter-spacing: 3px;
 }
 img {
   max-width: 100px;
   margin-left: 12px;
 }
+.content1 img {
+  margin-left: -30%;
+}
 .content1 {
   font-size: 9px;
   margin-top: 10px;
   margin-right: 15px;
+}
+.content2 h2 {
+  font-size: 13px;
 }
 .content5 {
   font-size: 9px;
@@ -289,22 +394,27 @@ img {
     border-radius: 150px;
     /* margin-right: 0px;
     margin-left: 1px; */
-    padding-left: 7px;
+    padding-left: 4px;
     padding-right: 0px;
     max-width: 37px;
+    /* padding: 0px; */
 }
 .content5 img {
   margin-right: 5px;
   margin-left: 35px;
 }
-.name {
+.content2 h5 {
   font-size: 5px;
+
+}
+.name {
+  font-size: 1px;
+  font-family: 'Sparky Stones', sans-serif;                                             
+  padding-left: 0px;
+  padding-right: 1px;                                          
 }
 .figcaption {
   font-size: 5px;
-}
-.section {
-  text-align: center;
 }
 .content4 {
   padding-left: 10px;
@@ -327,7 +437,8 @@ tr:nth-child(odd) { background-color: #caa282; }
 
 tr.tr-header {
     background-color: #a0745f;
-    height: 30px;
+    height: 10px;
+    justify-content: space-between;
 }
 .tr-header th {
   font-size: 12px;
@@ -349,12 +460,21 @@ figcaption span {
   color: #333333;
   font-size: 10px;
 }
+span {
+  font-size: 10px;
+}
 .name {
   font-size: 6px;
 }
 .content3 {
   text-align: center;
-  
 }
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: -3%;
+  margin-left: -3%;
+}
+
 
 }
