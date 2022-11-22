@@ -354,7 +354,7 @@ img {
 }
 .content1 {
   font-size: 9px;
-  margin-top: 65px;
+  margin-top: 60px;
   margin-right: 5px;
 }
 .content2 h2 {
@@ -472,8 +472,8 @@ span {
 .container {
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-right: -3%;
-  margin-left: -3%;
+  margin-right: 0%;
+  margin-left: 0%;
 }
 
 
